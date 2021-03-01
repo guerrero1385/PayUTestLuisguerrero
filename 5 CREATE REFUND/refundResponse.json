@@ -1,0 +1,28 @@
+{
+    "id": "0a2c7e06-96d1-46d7-b488-1b58e632ef87",
+    "created": "1614622566511",
+    "result": {
+        "status": "Succeed"
+    },
+    "provider_data": {
+        "provider_name": "MockProcessor",
+        "response_code": "0",
+        "description": "Refunded.",
+        "raw_response": "{\"OID\":\"6dd53509-2330-45d3-ae1d-4647df3c7c54\",\"AUTH_CODE\":\"6dd53\",\"RETURN_MESSAGE\":\"Refunded.\",\"TRANSID\":\"47d1c246-7e78-462d-a540-e932e706e550_250790b1-6f98-4fc6-95da-080562a7116a_Refund\",\"STATUS\":\"SUCCESS\",\"AMOUNT\":\"40.97\",\"DATE\":\"1614622566511\",\"RETURN_CODE\":\"0\",\"CURRENCY\":\"EUR\"}",
+        "authorization_code": "6dd53",
+        "transaction_id": "47d1c246-7e78-462d-a540-e932e706e550_250790b1-6f98-4fc6-95da-080562a7116a_Refund",
+        "external_id": "6dd53509-2330-45d3-ae1d-4647df3c7c54"
+    },
+    "amount": 4097,
+    "provider_configuration": {
+        "id": "167c3475-1e82-4ee3-a16f-7077f0c5bb95",
+        "name": "Mock provider",
+        "description": "testing payu",
+        "created": "1614605321141",
+        "modified": "1614605321141",
+        "account_id": "250790b1-6f98-4fc6-95da-080562a7116a",
+        "provider_id": "c87ee096-e1a4-4502-9194-9e9b6e867bf0",
+        "type": "cc_processor",
+        "href": "https://api.paymentsos.com/accounts/250790b1-6f98-4fc6-95da-080562a7116a/provider-configurations/167c3475-1e82-4ee3-a16f-7077f0c5bb95"
+    }
+}

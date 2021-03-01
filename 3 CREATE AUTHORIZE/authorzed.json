@@ -1,0 +1,53 @@
+{
+    "id": "416926b5-3cc0-4f71-af84-8de7e2b8b953",
+    "created": "1614621617788",
+    "reconciliation_id": "23434534534",
+    "provider_specific_data": {},
+    "payment_method": {
+        "type": "tokenized",
+        "token": "8b3acbfe-355f-47f6-852b-4834d7fca90d",
+        "token_type": "credit_card",
+        "holder_name": "John Mark",
+        "expiration_date": "10/2029",
+        "last_4_digits": "1111",
+        "pass_luhn_validation": true,
+        "fingerprint": "2eb5e81c-740e-43f7-a8df-7c0c79067cfa",
+        "bin_number": "411111",
+        "vendor": "VISA",
+        "issuer": "JPMORGAN CHASE BANK, N.A.",
+        "card_type": "CREDIT",
+        "level": "",
+        "country_code": "USA",
+        "created": "1614619748679",
+        "billing_address": {
+            "country": "USA",
+            "state": "NY",
+            "city": "NYC",
+            "line1": "fifth avenue 10th"
+        }
+    },
+    "result": {
+        "status": "Succeed"
+    },
+    "provider_data": {
+        "provider_name": "MockProcessor",
+        "response_code": "0",
+        "description": "Authorized.",
+        "raw_response": "{\"OID\":\"6dd53509-2330-45d3-ae1d-4647df3c7c54\",\"AUTH_CODE\":\"6dd53\",\"RETURN_MESSAGE\":\"Authorized.\",\"TRANSID\":\"21263b53-b7c2-42c9-ae58-6d914687e7d8_250790b1-6f98-4fc6-95da-080562a7116a_Authorization\",\"STATUS\":\"SUCCESS\",\"AMOUNT\":\"40.97\",\"DATE\":\"1614621617788\",\"RETURN_CODE\":\"0\",\"CURRENCY\":\"EUR\"}",
+        "authorization_code": "6dd53",
+        "transaction_id": "21263b53-b7c2-42c9-ae58-6d914687e7d8_250790b1-6f98-4fc6-95da-080562a7116a_Authorization",
+        "external_id": "6dd53509-2330-45d3-ae1d-4647df3c7c54"
+    },
+    "amount": 4097,
+    "provider_configuration": {
+        "id": "167c3475-1e82-4ee3-a16f-7077f0c5bb95",
+        "name": "Mock provider",
+        "description": "testing payu",
+        "created": "1614605321141",
+        "modified": "1614605321141",
+        "account_id": "250790b1-6f98-4fc6-95da-080562a7116a",
+        "provider_id": "c87ee096-e1a4-4502-9194-9e9b6e867bf0",
+        "type": "cc_processor",
+        "href": "https://api.paymentsos.com/accounts/250790b1-6f98-4fc6-95da-080562a7116a/provider-configurations/167c3475-1e82-4ee3-a16f-7077f0c5bb95"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "token": "8b3acbfe-355f-47f6-852b-4834d7fca90d",
+    "created": "1614619748679",
+    "pass_luhn_validation": true,
+    "token_type": "credit_card",
+    "type": "tokenized",
+    "state": "created",
+    "bin_number": "411111",
+    "vendor": "VISA",
+    "card_type": "CREDIT",
+    "issuer": "JPMORGAN CHASE BANK, N.A.",
+    "level": "",
+    "country_code": "USA",
+    "billing_address": {
+        "line1": "fifth avenue 10th",
+        "city": "NYC",
+        "state": "NY",
+        "country": "USA"
+    },
+    "holder_name": "John Mark",
+    "expiration_date": "10/2029",
+    "last_4_digits": "1111",
+    "encrypted_cvv": "YWQ4ZTYzZjQtNGQzNC00NjkyLWI3NDktZWYxMzNlZjhlMmQ2Y3Z2X2RlbGltaXRlcnZhdWx0OnY0OjVET3NWN2Y1Wkp0bzFHdHc0MnRuRjlDMVpVUit3Um83OERCWmFJNmhudVg1R2dIZGVkczVyTkoycVFDTnlxUlJYRlMwMWJyK0tkR3BqT1NDNjZPUU5OcDhWV1k0Vk4zd3ZJWTNKNEJC"
+}

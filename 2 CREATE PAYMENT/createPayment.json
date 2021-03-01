@@ -1,0 +1,41 @@
+{
+    "id": "6dd53509-2330-45d3-ae1d-4647df3c7c54",
+    "currency": "EUR",
+    "created": "1614620556337",
+    "modified": "1614620556337",
+    "is_chargedback": false,
+    "status": "Initialized",
+    "billing_address": {
+        "phone": "+1-541-754-3010"
+    },
+    "possible_next_actions": [
+        {
+            "action": "Credit",
+            "href": "https://api.paymentsos.com/payments/6dd53509-2330-45d3-ae1d-4647df3c7c54/credits"
+        },
+        {
+            "action": "Charge",
+            "href": "https://api.paymentsos.com/payments/6dd53509-2330-45d3-ae1d-4647df3c7c54/charges"
+        },
+        {
+            "action": "Authorization",
+            "href": "https://api.paymentsos.com/payments/6dd53509-2330-45d3-ae1d-4647df3c7c54/authorizations"
+        },
+        {
+            "action": "Update Payment",
+            "href": "https://api.paymentsos.com/payments/6dd53509-2330-45d3-ae1d-4647df3c7c54"
+        },
+        {
+            "action": "Authentication",
+            "href": "https://api.paymentsos.com/payments/6dd53509-2330-45d3-ae1d-4647df3c7c54/authentications"
+        },
+        {
+            "action": "Risk analysis",
+            "href": "https://api.paymentsos.com/payments/6dd53509-2330-45d3-ae1d-4647df3c7c54/risk-analyses"
+        }
+    ],
+    "order": {
+        "id": "myorderid"
+    },
+    "amount": 4097
+}
